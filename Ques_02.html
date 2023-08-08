@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three-Column Layout</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  flex-basis: 30%;
+  padding: 20px;
+  border: 1px solid #cf8888;
+ 
+}
+
+.column h2 {
+  text-align: center;
+}
+
+.column p {
+  margin-top: 10px;
+}
+
+.column img {
+  max-width: 100%;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 5px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="column">
+      <h2 style="color: #cf8888;">Book Shop</h2>
+      <p>It is the largest online bookstore in Bangladesh. Buy Novel, Story, Islamic, Computer Programming, Children, West Bengal, Fiction, Non fiction,Horror Story ETC.</p>
+    </div>
+    <div class="column">
+      <h2 style="color: #cf8888;">Image</h2>
+      <img src="book2.jpg" alt="Sample Image">
+    </div>
+    <div class="column">
+      <h2 style="color: #cf8888;">List Of books</h2>
+      <ul>
+        <li>1.Bela Furabar age</li>
+        <li>2.The Alchemist</li>
+        <li>3. 3.00 AM</li>
+        <li>4. Islam</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
